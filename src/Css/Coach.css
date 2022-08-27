@@ -1,0 +1,41 @@
+.coachsignform{
+    color : aliceblue;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.coachsignuptitle{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.coachsignform .form-group{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.coachsignform .form-group label{
+    margin-bottom: 4%;
+}
+
+.successcoachsignup{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.coachlogin{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 30%;
+}
