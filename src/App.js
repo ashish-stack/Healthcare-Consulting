@@ -1,5 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Route from 'react';
+import Home from './Components/Home';
+import CoachLogin './Components/CoachLogin';
+import CoachSignup from './Components/CoachSignup';
+import UserLogin from './Components/UserLogin';
+import UserSignup from './Components/UserSignup';
+import CoachHome from './Components/CoachHome';
+import UserHome from './Components/UserHome';
+import CoachViewProfile from './Components/CoachViewProfile';
+import Footer from './Components/Footer';
+import UserViewProfile from './Components/UserViewProfile';
+import UserAppointments from './Components/UserAppointments';
+
+
 
 function App() {
   return (
