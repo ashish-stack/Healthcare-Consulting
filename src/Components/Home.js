@@ -58,3 +58,5 @@ function Home(){
         </React.Fragment>
     )
 }
+
+export default Home;
