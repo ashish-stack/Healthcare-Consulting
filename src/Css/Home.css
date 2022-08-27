@@ -1,0 +1,26 @@
+.homepart{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.homepart h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.twoparts{
+    background-color: black;
+    height: 100%;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.twoparts img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.twoparts Button{
+    width: 50%;
+}

@@ -1,0 +1,55 @@
+.coachlist{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.coachdisp{
+    text-align: left;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    width: 90%;
+}
+
+.appointlist{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.appointdisp{
+    background-color: black;
+    border-radius: 10px;
+    width: 90%;
+    color: white;
+    margin-top: 5%;
+}
+
+.appointdisp button{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.booking{
+    width: 60%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.booking .form-group{
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.booking .form-group .form-check-inline input{
+    margin-right: 2px;
+    font-weight: lighter;
+}
