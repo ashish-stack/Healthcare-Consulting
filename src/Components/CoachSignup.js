@@ -1,4 +1,9 @@
 import { useState } from "react";
+import NavFirst from "./NavFirst";
+import axios from "axios";
+import React from "react";
+import '../Css/Coach.css'
+
 
 function CoachSignup(){
     const [name, setName] = useState('');
