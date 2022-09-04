@@ -1,5 +1,7 @@
 package com.healthcare.consulting.serviceImpl;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,6 +44,17 @@ public class CoachServiceImpl implements CoachService {
 		Optional<Coach> coachEntity = coachRepository.findById(coachId);
 		CoachDTO coachDTO = coachEntity.get().prepareCoachDTO(coachEntity.get());
 		return coachDTO;	
+	}
+
+	@Override
+	public List<CoachDTO> showAllCoaches() {
+		List<Coach> coachEntity = coachRepository.findAll();
+		List<CoachDTO> coachDTOList = new ArrayList<>();
+		for(Coach entity: coachEntity) {
+			coachDTOList.add(entity.prepareCoachDTO(entity));
+		}
+		return coachDTOList;
+		
 	}
 	
 	

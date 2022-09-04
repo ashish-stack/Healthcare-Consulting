@@ -1,5 +1,7 @@
 package com.healthcare.consulting.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.healthcare.consulting.dto.CoachDTO;
@@ -13,5 +15,7 @@ public interface CoachService {
 	public boolean loginCoach(LoginDTO loginDTO);
 
 	public CoachDTO getCoachProfile(String coachId);
+	
+	public List<CoachDTO> showAllCoaches();
 
 }

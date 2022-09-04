@@ -1,5 +1,7 @@
 package com.healthcare.consulting.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -38,6 +40,12 @@ public class CoachRestController {
 	public ResponseEntity<CoachDTO> getCoachProfile(
 			@PathVariable("coachId") String coachId){
 				return new ResponseEntity<>(coachService.getCoachProfile(coachId), HttpStatus.OK);
+	}
+	
+	@GetMapping(value="/all",produces = "application/json" )
+	public List<CoachDTO> showAllCoaches(){
+		return coachService.showAllCoaches();
+		
 	}
 	
 	
