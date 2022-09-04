@@ -1,0 +1,18 @@
+server:
+  port: 8300
+  servlet:
+    context-path: /coach
+spring:
+  application:
+    name: CoachMs
+  cloud:
+    config:
+      import-check:
+        enabled: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/coach
+    username: root
+  jpa:
+    generate-ddl: true
