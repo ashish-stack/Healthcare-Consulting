@@ -94,8 +94,8 @@ function CoachSignup(){
                 <NavFirst />
                 <div className="coachsignform">
                     <div className="coachsignuptitle">
-                        <span><img src="images/LifeCoachLogin.jpg" alt="coach" style={{height:'50px', weight:'45px', marginRight:'15px'}}></img></span>
-                        <h1 style={{display:'inline'}}> Life Coach Profile</h1>
+                        <span><img src="images/LifeCoachLogin.jpg" alt="coach" style={{height:'50px', weight:'45px', marginRight:'15px'}}></img>
+                        <h1 style={{display:'inline'}}> Life Coach Profile</h1></span>
                     </div>
 
                     <div>
