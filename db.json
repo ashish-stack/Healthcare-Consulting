@@ -1,5 +1,15 @@
 {
-    "coaches":[],
-    "users":[],
-    "bookings":[]
+  "coaches": [
+    {
+      "name": "Ashish Vishwakarma",
+      "password": "ashish",
+      "dateOfBirth": "2022-09-14",
+      "gender": "Male",
+      "mobileNumber": "1111111111",
+      "speciality": "Good Teacher",
+      "id": 1
+    }
+  ],
+  "users": [],
+  "bookings": []
 }

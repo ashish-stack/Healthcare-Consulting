@@ -1,12 +1,16 @@
-const { useEffect } = require("react");
-const { useState } = require("react");
 import NavFirst from "./NavFirst";
 import React from "react";
 import '../Css/UserHome.css';
 import RescheduleAndDelete from "./RescheduleAndDelete";
 import Popup from "reactjs-popup";
+import axios from "axios";
 
 function UserAppointments(){
+
+
+const { useEffect } = require("react");
+const { useState } = require("react");
+
     const [appointments, setAppointments] = useState([]);
     const [reschedule, setReschedule] = useState(false);
     useEffect(() => {

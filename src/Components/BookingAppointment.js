@@ -30,9 +30,17 @@ function BookingAppointment(props){
 
     function SubmitButton(){
         if(dateOfAppointment && slot){
-            return <button onClick={handleSubmit} type="button" className="btn btn-success" style={{width:'90%', marginTop:'20px', marginBottom:'30px'}}> Confirm your Appointment </button>
+            return (
+                <React.Fragment>
+            <button onClick={handleSubmit} type="button" className="btn btn-success" style={{width:'90%', marginTop:'20px', marginBottom:'30px'}}> Confirm your Appointment </button>
+            </React.Fragment>
+            )
         } else{
-            return <button onClick={handleSubmit} type="button" className="btn btn-success" style={{width:'90%', marginTop:'20px', marginBottom:'30px'}} disabled> Confirm your Appointment </button>
+            return (
+                <React.Fragment>
+                <button onClick={handleSubmit} type="button" className="btn btn-success" style={{width:'90%', marginTop:'20px', marginBottom:'30px'}} disabled> Confirm your Appointment </button>
+                </React.Fragment>
+                )
         };
     };
 

@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Route from 'react';
+// const {Home} = require('./Components/Home')
 import Home from './Components/Home';
-import CoachLogin './Components/CoachLogin';
+import CoachLogin from './Components/CoachLogin';
 import CoachSignup from './Components/CoachSignup';
 import UserLogin from './Components/UserLogin';
 import UserSignup from './Components/UserSignup';
@@ -13,11 +12,13 @@ import CoachViewProfile from './Components/CoachViewProfile';
 import Footer from './Components/Footer';
 import UserViewProfile from './Components/UserViewProfile';
 import UserAppointments from './Components/UserAppointments';
+import React from 'react';
 
 
 
 function App() {
   return (
+    <React.Fragment>
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home />}></Route>
@@ -33,8 +34,10 @@ function App() {
             <Route path="/userviewprofile" element={<UserViewProfile />}></Route>
             <Route path="/userappointments" element={<UserAppointments />}></Route>
         </Routes>
+        <Footer />
     </BrowserRouter>
-  );
+    </React.Fragment>
+  )
 }
 
 export default App;
