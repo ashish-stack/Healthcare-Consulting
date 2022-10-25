@@ -1,15 +1,46 @@
 {
   "coaches": [
     {
-      "name": "Ashish Vishwakarma",
+      "name": "ashish",
       "password": "ashish",
-      "dateOfBirth": "2022-09-14",
+      "dateOfBirth": "",
+      "gender": "",
+      "mobileNumber": "",
+      "speciality": "",
+      "id": 1
+    },
+    {
+      "name": "abhay",
+      "password": "abhay",
+      "dateOfBirth": "2000-11-11",
       "gender": "Male",
       "mobileNumber": "1111111111",
-      "speciality": "Good Teacher",
+      "speciality": "good teacher",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "name": "ashish",
+      "password": "ashish",
+      "dateOfBirth": "1998-02-12",
+      "gender": "Male",
+      "mobileNumber": "1111111111",
+      "email": "ashishclass000@gmail.com",
+      "pincode": "111111",
+      "city": "Mumbai",
+      "stateName": "Maharashtra",
+      "country": "Japan1",
       "id": 1
     }
   ],
-  "users": [],
-  "bookings": []
+  "bookings": [
+    {
+      "date": "2022-10-27",
+      "slot": "9 AM to 10 AM",
+      "userId": 1,
+      "coachId": 1,
+      "id": 1
+    }
+  ]
 }

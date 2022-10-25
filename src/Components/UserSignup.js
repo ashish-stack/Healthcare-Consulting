@@ -18,16 +18,16 @@ function UserSignup(){
     const [country, setCountry] = useState('');
     const [success, setSuccess] = useState('');
 
-    const [nameError, setNameError] = useState('');
-    const [passwordError, setPasswordError] = useState('');
-    const [dobError, setDobError] = useState('');
-    const [genderError, setGenderError] = useState('');
-    const [mobileError, setMobileError] = useState('');
-    const [emailError, setEmailError] = useState('');
-    const [pinError, setPinError] = useState('');
-    const [cityError, setCityError] = useState('');
-    const [stateNameError, setStateNameError] = useState('');
-    const [countryError, setCountryError] = useState('');
+    const [nameError, setNameError] = useState(' ');
+    const [passwordError, setPasswordError] = useState(' ');
+    const [dobError, setDobError] = useState(' ');
+    const [genderError, setGenderError] = useState(' ');
+    const [mobileError, setMobileError] = useState(' ');
+    const [emailError, setEmailError] = useState(' ');
+    const [pinError, setPinError] = useState(' ');
+    const [cityError, setCityError] = useState(' ');
+    const [stateNameError, setStateNameError] = useState(' ');
+    const [countryError, setCountryError] = useState(' ');
 
 
 
@@ -88,22 +88,22 @@ function UserSignup(){
             setPinError('');
         }
 
-        if(city.length <6 || city.length>20){
-            setCityError("City should have 6 to 20 characters");
+        if(city.length <5 || city.length>20){
+            setCityError("City should have 5 to 20 characters");
             setSuccess("");
         }else{
             setCityError("");
         }
 
-        if(stateName.length <6 || stateName.length>20){
-            setStateNameError("State should have 6 to 20 characters");
+        if(stateName.length <5 || stateName.length>20){
+            setStateNameError("State should have 5 to 20 characters");
             setSuccess("");
         }else{
             setStateNameError("");
         }
 
-        if(country.length <6 || country.length>20){
-            setCountryError("Country should have 6 to 20 characters");
+        if(country.length <4 || country.length>20){
+            setCountryError("Country should have 4 to 20 characters");
             setSuccess("");
         }else{
             setCountryError("");

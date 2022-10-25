@@ -14,12 +14,12 @@ function CoachSignup(){
     const [speciality, setSpeciality] = useState('');
     const [success, setSuccess] = useState('');
 
-    const [nameError, setNameError] = useState('');
-    const [passwordError, setPasswordError] = useState('');
-    const [dobError, setDobError] = useState('');
-    const [genderError, setGenderError] = useState('');
-    const [mobileError, setMobileError] = useState('');
-    const [specError, setSpecError] = useState('');
+    const [nameError, setNameError] = useState(' ');
+    const [passwordError, setPasswordError] = useState(' ');
+    const [dobError, setDobError] = useState(' ');
+    const [genderError, setGenderError] = useState(' ');
+    const [mobileError, setMobileError] = useState(' ');
+    const [specError, setSpecError] = useState(' ');
 
 
     const handleSubmit = (e) => {
