@@ -2,7 +2,7 @@
   "coaches": [
     {
       "name": "ashish",
-      "password": "",
+      "password": "ashish",
       "dateOfBirth": "",
       "gender": "",
       "mobileNumber": "",
@@ -34,5 +34,13 @@
       "id": 1
     }
   ],
-  "bookings": []
+  "bookings": [
+    {
+      "date": "2022-10-27",
+      "slot": "9 AM to 10 AM",
+      "userId": 1,
+      "coachId": 1,
+      "id": 1
+    }
+  ]
 }

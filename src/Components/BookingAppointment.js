@@ -41,7 +41,7 @@ function BookingAppointment(props){
                 <button onClick={handleSubmit} type="button" className="btn btn-success" style={{width:'90%', marginTop:'20px', marginBottom:'30px'}} disabled> Confirm your Appointment </button>
                 </React.Fragment>
                 )
-        };
+        }
     };
 
     return(
@@ -62,7 +62,7 @@ function BookingAppointment(props){
 
                     <div className="form-check-inline" value={slot} onChange={(event) => setSlot(event.target.value)}>
                         <label className="form-check-label" htmlFor="slot">
-                        <input type="radio" className="form-check-input" id="slot" name="slot" value="9 AM to 10 AM" /> 90 AM to 10 AM
+                        <input type="radio" className="form-check-input" id="slot" name="slot" value="9 AM to 10 AM" /> 9 AM to 10 AM
                         </label>
                     </div>
 

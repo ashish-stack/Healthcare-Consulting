@@ -9,10 +9,10 @@ function CoachHome(){
     const [appointments, setAppointments] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:4000/bookings').then((res => {
+        axios.get('http://localhost:4000/bookings').then((res) => {
             let value = res.data;
             setAppointments(value);
-        }));
+        });
     }, [])
 
     return(

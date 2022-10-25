@@ -32,7 +32,7 @@ function UserLogin(){
         }
 
         if(id!=='' && password!==''){
-            axios.get('http://localhost:4000/user?id='+id+'&password='+password).then((res) =>{
+            axios.get('http://localhost:4000/users?id='+id+'&password='+password).then((res) =>{
                 let value = res.data;
 
                 if(value.length===0){
